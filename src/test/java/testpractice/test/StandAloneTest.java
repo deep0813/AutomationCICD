@@ -54,6 +54,7 @@ public class StandAloneTest {
 		Thread.sleep(5000);
 		driver.findElement(By.cssSelector(".action__submit")).click();
 		System.out.println(driver.findElement(By.cssSelector(".hero-primary")).getText());
+		System.out.println("hello");
 		driver.close();
 		
 	}
